@@ -281,7 +281,7 @@ class ConfirmacaoPunicaoModal(discord.ui.Modal):
                     except Exception as e:
                         print(f"[ERRO] Erro ao punir {nome} ({id_discord}): {e}")
                 else:
-                    print(f"[IGNORADO] Valor informado '{id_usuario}' não corresponde a nenhum membro. Nenhuma punição aplicada.")a
+                    print(f"[IGNORADO] Valor informado '{id_usuario}' não corresponde a nenhum membro. Nenhuma punição aplicada.")
 
 
             # 🔥 Remove o arquivo JSON temporário após aplicar as punições
